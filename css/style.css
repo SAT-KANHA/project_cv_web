@@ -36,12 +36,14 @@
   color: palevioletred;
 }
 .paragraph {
-  width: 60%;
+  max-width: 700px;
+  width: 90%;  
+  margin: 0 auto 50px auto;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color: palevioletred;
-    margin: 0 auto 30px auto;
-  line-height: 1.7;
-  
+  color: palevioletred;  
+  line-height: 1.8;
+  font-size: 16px;
+  text-align: center;
 }
 .gallery {
   gap: 50px;
@@ -156,3 +158,8 @@
           width: 100px;
           height: 100px;
         }
+      .profiles {
+  width: 100%;
+  border-radius: 1000%;
+  list-style: ;
+}
